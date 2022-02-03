@@ -10,4 +10,6 @@
     <color name="dark_theme_bg">#0B090A</color>
     <color name="dark_theme_btn_bg">#343A40</color>
     <color name="dark_theme_btn_txt">#CED4DA</color>
+    <color name="orange">#F3722C</color>
+    <color name="green">#06D6A0</color>
 </resources>
