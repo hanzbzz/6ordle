@@ -10,7 +10,7 @@
 
     <!-- Linear layout consisting of 6 textviews representing 1 letter each of first guessed word -->
     <LinearLayout
-        android:id="@+id/linear_layout_row_1"
+        android:id="@+id/linear_layout_row_0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/text_view_row_1_col_1"
+            android:id="@+id/text_view_row_0_col_0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -33,6 +33,124 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_0_col_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_0_col_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_0_col_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_0_col_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_0_col_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
+            />
+
+    </LinearLayout>
+
+    <!-- Second word -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear_layout_row_1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintTop_toBottomOf="@id/linear_layout_row_0">
+
+        <TextView
+            android:id="@+id/text_view_row_1_col_0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:textColor="@color/dark_theme_btn_txt"
+            android:layout_marginEnd="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_1_col_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
             />
 
         <TextView
@@ -87,21 +205,6 @@
             android:layout_weight="1"
             android:background="@drawable/back"
             android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_1_col_6"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
             android:textColor="@color/dark_theme_btn_txt"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
@@ -111,7 +214,7 @@
 
     </LinearLayout>
 
-    <!-- Second word -->
+    <!-- Third word -->
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/linear_layout_row_2"
@@ -125,7 +228,7 @@
         app:layout_constraintTop_toBottomOf="@id/linear_layout_row_1">
 
         <TextView
-            android:id="@+id/text_view_row_2_col_1"
+            android:id="@+id/text_view_row_2_col_0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -136,6 +239,21 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_2_col_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
             />
 
         <TextView
@@ -190,21 +308,6 @@
             android:layout_weight="1"
             android:background="@drawable/back"
             android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_2_col_6"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
             android:textColor="@color/dark_theme_btn_txt"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
@@ -214,7 +317,7 @@
 
     </LinearLayout>
 
-    <!-- Third word -->
+    <!-- Fourth word -->
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/linear_layout_row_3"
@@ -228,7 +331,7 @@
         app:layout_constraintTop_toBottomOf="@id/linear_layout_row_2">
 
         <TextView
-            android:id="@+id/text_view_row_3_col_1"
+            android:id="@+id/text_view_row_3_col_0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -239,6 +342,21 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_3_col_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
             />
 
         <TextView
@@ -293,21 +411,6 @@
             android:layout_weight="1"
             android:background="@drawable/back"
             android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_3_col_6"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
             android:textColor="@color/dark_theme_btn_txt"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
@@ -316,8 +419,7 @@
             />
 
     </LinearLayout>
-
-    <!-- Fourth word -->
+    <!-- Fifth word -->
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/linear_layout_row_4"
@@ -331,7 +433,7 @@
         app:layout_constraintTop_toBottomOf="@id/linear_layout_row_3">
 
         <TextView
-            android:id="@+id/text_view_row_4_col_1"
+            android:id="@+id/text_view_row_4_col_0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -342,6 +444,21 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_4_col_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
             />
 
         <TextView
@@ -396,21 +513,6 @@
             android:layout_weight="1"
             android:background="@drawable/back"
             android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_4_col_6"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
             android:textColor="@color/dark_theme_btn_txt"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
@@ -419,7 +521,8 @@
             />
 
     </LinearLayout>
-    <!-- Fifth word -->
+
+    <!-- Sixth word -->
     <LinearLayout
         android:layout_width="match_parent"
         android:id="@+id/linear_layout_row_5"
@@ -433,7 +536,7 @@
         app:layout_constraintTop_toBottomOf="@id/linear_layout_row_4">
 
         <TextView
-            android:id="@+id/text_view_row_5_col_1"
+            android:id="@+id/text_view_row_5_col_0"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -444,6 +547,21 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/text_view_row_5_col_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            android:text=""
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/dark_theme_btn_txt"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textAlignment="center"
+
             />
 
         <TextView
@@ -493,124 +611,6 @@
 
         <TextView
             android:id="@+id/text_view_row_5_col_5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_5_col_6"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-    </LinearLayout>
-
-    <!-- Sixth word -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:id="@+id/linear_layout_row_6"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="25dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        app:layout_constraintTop_toBottomOf="@id/linear_layout_row_5">
-
-        <TextView
-            android:id="@+id/text_view_row_6_col_1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:textColor="@color/dark_theme_btn_txt"
-            android:layout_marginEnd="5dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_6_col_2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_6_col_3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_6_col_4"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_6_col_5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/back"
-            android:text=""
-            android:layout_marginEnd="5dp"
-            android:textColor="@color/dark_theme_btn_txt"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:textAlignment="center"
-
-            />
-
-        <TextView
-            android:id="@+id/text_view_row_6_col_6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
